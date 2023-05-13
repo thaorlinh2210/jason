@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Styling */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+/* Header Styling */
+header {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Main Article Styling */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
