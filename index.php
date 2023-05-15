@@ -13,6 +13,9 @@
   </head>
 
   <body>
+    <?php
+      include_once "header.inc"
+    ?>
     <!-- <nav>
       <div class="nav-container">
         <h1 class="logo"><a href="#">Rostering Database</a></h1>
