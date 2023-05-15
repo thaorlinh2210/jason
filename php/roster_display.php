@@ -7,6 +7,9 @@
 
 <body>
 <?php
+
+      include_once "header.inc"
+    
 	require_once("settings.php");
 	
 	$conn = @mysqli_connect($host, $user, $pwd, $sql_db); 
